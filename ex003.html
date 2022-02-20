@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+    <html>
+        
+        <head>
+                <meta charset="UFT-8">
+                
+                <title> Aula 05 </title>
+
+        </head>
+        
+            <body>
+                    <h1> Manipulando dados no JS</h1>
+                    
+                    <p> Para passar uma string para um número inteiro utiliza-se "parseInt(n)"",já para passar para 
+                        um número decimal usa-se "parseFloat"</p>
+                    
+                    <script>
+
+                            //"Number.parseInt(n) para passar para um número inteiro"
+                            var numero1 = Number.parseInt(window.prompt('Digite um Número')); //o prompt automaticamnte gera um string
+                            var numero2 = Number.parseInt(window.prompt('Digite outro Número'));
+                            //da pra mandar o JS se virar deixando apenas Number e tirando o parse
+                            var soma = numero1 + numero2;
+                            //para converter para string é só usar "soma.toString(),ou String(soma)"
+                            alert('Os dois Números somados resulta em ' + soma)
+                            //string + string = concatena e não soma
+                            //number + number = soma normal
+
+                            //Ao invés de concatenar da pra declarara variavel usando ${'nome da var'}
+
+                    </script>
+
+                    <style>
+
+                        h1 {
+                            font-size: 30pt Arial;
+                            color:darkslateblue 
+
+                        }
+
+                        p {
+                            font-size: 20pt;
+                            color:darkgreen
+
+                        }
+
+                        body {
+
+                            background-color:azure;
+                        }
+                            /* Assim que se comenta em CSS */
+
+                    </style>
+            </body>
+        
+    </html>
