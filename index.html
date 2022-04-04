@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Eventos DOM </title>
+
+    <style> 
+
+        body{
+
+            background-color: rgb(16, 13, 41);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Iniciando os Estudos com DOM </h1>
+    <p>Aqui vai o resultado</p>
+    <p> Aprendendo a usar <strong>DOM</strong> em JavaScript </p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+
+
+        var d = document.querySelector('div#msg') // se for id usa # se for class usa .
+        d.style.background = 'green'
+        //window.document.write("Está escrito assim " + p1.innerText) //innerHTML puxa tudo, o text puxa só o texto cru
+        // "nome da variavel" + .style da pra modificar o estilo
+        //window.document.write('Olá, Mundo!!!') dizendo ola mundo
+        //window.document.write( window.navigator.appName ) nome do navegador
+        //window.document.write( window.document.URL ) url do arquivo
+
+    </script>
+    
+</body>
+
+</html>
