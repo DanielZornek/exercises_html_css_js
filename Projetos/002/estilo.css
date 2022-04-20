@@ -1,0 +1,67 @@
+body{
+
+    background: rgb(91, 91, 253);
+    font: normal 15pt Arial;
+}
+
+header{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+section{
+
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
+
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+div{
+
+    text-align: left;
+    padding: 8px;
+
+}
+
+#botao{
+
+    height: 60px;
+    width: 160px;
+    background-color: blueviolet;
+    font: normal 20px Arial;
+    color:aliceblue;
+    transition-duration: 0.4s;
+}
+#botao:hover {
+
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
+#textano{
+
+    height: 30px;
+    width: 200px;
+    background-color: rgb(136, 59, 82);
+    font: normal 20px Arial;
+    color:aliceblue;
+
+}
